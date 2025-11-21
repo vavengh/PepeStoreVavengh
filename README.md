@@ -45,7 +45,24 @@ PepeStore es un mini e-commerce desarrollado para la prueba técnica de Fintoc. 
 
 ## Instalación y Configuración
 
-Para instrucciones detalladas de instalación, consulta el archivo [SETUP.md](./SETUP.md)
+### 🐧 Para Linux (Recomendado)
+
+**Instalación rápida con scripts:**
+```bash
+chmod +x install.sh setup-db.sh start.sh
+./install.sh
+./setup-db.sh
+./start.sh
+```
+
+Ver [README_LINUX.md](./README_LINUX.md) para instrucciones completas.
+
+### 📋 Instalación Manual
+
+Para instrucciones detalladas de instalación, consulta:
+- [SETUP.md](./SETUP.md) - Guía general
+- [INSTALL.md](./INSTALL.md) - Instalación paso a paso
+- [QUICK_START.md](./QUICK_START.md) - Inicio rápido
 
 ### Inicio Rápido
 
