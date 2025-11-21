@@ -1,0 +1,154 @@
+.confirmation-page {
+  padding: 40px 0;
+}
+
+.confirmation-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.confirmation-content h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 32px;
+}
+
+.order-details {
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #eee;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.detail-row span:first-child {
+  color: #666;
+  font-weight: 500;
+}
+
+.detail-row span:last-child {
+  color: #333;
+  font-weight: 600;
+}
+
+.order-number {
+  font-size: 20px;
+  color: #007bff;
+}
+
+.status {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.status-pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-confirmed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-completed {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.status-cancelled {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.order-items-section {
+  margin-bottom: 24px;
+}
+
+.order-items-section h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.order-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.order-item-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.order-item-quantity {
+  font-size: 14px;
+  color: #666;
+}
+
+.order-item-price {
+  font-weight: 600;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.order-total-section {
+  margin-bottom: 24px;
+  padding-top: 24px;
+  border-top: 2px solid #eee;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.confirmation-note {
+  background-color: #e7f3ff;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.confirmation-note p {
+  color: #004085;
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.note-small {
+  font-size: 12px !important;
+  color: #666 !important;
+}
+
+.confirmation-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+}
+
+.confirmation-actions .btn {
+  min-width: 150px;
+}
+

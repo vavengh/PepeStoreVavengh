@@ -1,0 +1,107 @@
+.thank-you-page {
+  padding: 60px 0;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.thank-you-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  padding: 60px 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0 auto 24px;
+}
+
+.thank-you-content h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.thank-you-message {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 32px;
+}
+
+.order-summary {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.summary-item:last-child {
+  margin-bottom: 0;
+}
+
+.summary-item span:first-child {
+  color: #666;
+  font-weight: 500;
+}
+
+.summary-item span:last-child {
+  color: #333;
+  font-weight: 600;
+}
+
+.order-number {
+  font-size: 20px;
+  color: #007bff;
+}
+
+.order-total {
+  font-size: 20px;
+  color: #28a745;
+}
+
+.status {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.status-confirmed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-completed {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.thank-you-actions {
+  margin-top: 32px;
+}
+
+.thank-you-actions .btn {
+  min-width: 200px;
+}
+
