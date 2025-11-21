@@ -1,12 +1,12 @@
-const Router = require('koa-router');
+const Router = require('@koa/router');
 const userController = require('../controllers/userController');
 
-const router = new Router({ prefix: '/users' });
+const router = new Router();
 
-router.get('/', userController.getAll);
-router.get('/:id', userController.getById);
-router.post('/', userController.create);
-router.put('/:id', userController.update);
-router.delete('/:id', userController.delete);
+router.get('/users', userController.getAll);
+router.get('/users/:id', userController.getById);
+router.post('/users', userController.create);
+router.put('/users/:id', userController.update);
+router.delete('/users/:id', userController.delete);
 
 module.exports = router;

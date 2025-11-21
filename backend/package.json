@@ -5,18 +5,23 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
+    "seed": "node src/seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ecommerce", "koa", "sequelize"],
+  "keywords": [
+    "ecommerce",
+    "koa",
+    "sequelize"
+  ],
   "author": "",
   "license": "ISC",
   "description": "PepeStore backend API built with Koa and Sequelize",
   "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@koa/router": "^14.0.0",
     "dotenv": "^17.2.3",
     "koa": "^3.1.1",
     "koa-bodyparser": "^4.4.1",
-    "koa-cors": "^0.0.16",
-    "koa-router": "^14.0.0",
     "sequelize": "^6.37.7",
     "sqlite3": "^5.1.7"
   },
